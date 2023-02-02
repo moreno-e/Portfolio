@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eric D. Moreno's Portfolio Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <ul>
+            <li>
+                <h1>
+                    <a>
+                        <span class="fa-solid fa-laptop-code"></span>
+                        <span>Eric D. Moreno</span>
+                        <a />
+                </h1>
+            </li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="./pages/about.html">About Me</a></li>
+            <li><a>Contact</a></li>
+            <li>
+                <a href="https://www.linkedin.com/in/eric-daniel-moreno/" target="_blank">
+                    <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
+                    <span class="sr-only">
+                        LinkedIn
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/moreno-e" target="_blank">
+                    <span class="fa-brands fa-github" aria-hidden="true">
+                    </span>
+                    <span class="sr-only">
+                        Github
+                    </span>
+                </a>
+
+            </li>
+            <li><a class="button" href="./docs/test-resume.pdf" target="_blank">Resume</a></li>
+        </ul>
+    </nav>
+
+    <section id="intro">
+        <p class="name">Hello! My name is <span>Eric D. Moreno.</span></p>
+        <h2>I develope digital experiences.</h2>
+        <p>
+            I am a Software Engineer, specializing in full stack development. I have experience in ecommerce SaaS
+            technology development
+            using Vue.js, Node.js, Express, Firebase, and much more!
+        </p>
+        <p>
+            Currently, I'm currently looking for my next opportunity.
+            Please checkout my <a href="https://www.linkedin.com/in/eric-daniel-moreno/" target="_blank">LinkedIn</a>
+            profile</a>
+            for a more detail overview of my experiences!
+        </p>
+    </section>
+
+    <div class="gradient"></div>
+    <div class="section-midBlue">
+        <section id="projects">
+            <h2>My Projects</h2>
+            <article>
+                <div class="text">
+                    <h4>Latest Project</h4>
+                    <h3>Carolina Hurricanes Warriors Website</h3>
+                    <p class="black-box">
+                        The Carolina Hurricanes Warriors Program is a non-profit disabled veteran's ice hockey team. As
+                        member of the program I volunteered to develop the teams website to help promote the
+                        importance of the program. Currently a new version of the site is under review by the programs
+                        board before release.
+                    </p>
+                    <p class="black-box">
+                        Originally developed using <span>React</span> and hosted via <span>Heroku</span>. The new
+                        and improved site has been now developed using the <span>Vue.js</span> framework using
+                        <span>Vuetify</span> components and hosted via <span>AWS Amplify</span>.
+                        The site now provides specific calendar events, photos of past events, and a board member login
+                        to view team-specific details. Please review the
+                        <span><a href="https://github.com/moreno-e/carolina-hurricanes-warriors" target="_blank">
+                                Github</a></span> page to view more in-depth specifics!
+                    </p>
+                    <h4> Technologies used include:</h4>
+                    <ul>
+                        <li>Vue.js</li>
+                        <li>Vuetify</li>
+                        <li>AWS Amplify</li>
+                        <li>AWS DataStore</li>
+                        <li>GraphQl</li>
+                        <li>AWS S3</li>
+                    </ul>
+                </div>
+                <img src="./images/Warriors-Site.png" alt="Screenshot of Warriors Website." />
+            </article>
+            <article class="reverse">
+                <div class="text">
+                    <h4>Ongoing Project and Former Class Project</h4>
+                    <h3>PoliHeel</h3>
+                    <p class="black-box">
+                        PoliHeel was a school personal project currently undergoing a rewrite to improve stability and
+                        user interaction. It is a <span>React</span> developed website that allows users to search
+                        congressional members of congress, federal or state (116th Congress), leveraging <span>Google
+                            Civic API</span> and <span>Probulica API</span>. The application will display a user’s
+                        federal and state senators and representatives after they sign up using <span>Material
+                            UI</span>. Furthermore, the congressional member's information is pulled after the user
+                        provides their location during sign-up.
+                    </p>
+                    <h4>Technologies used include:</h4>
+                    <ul>
+                        <li>React</li>
+                        <li>Firebase / Firestore</li>
+                        <li>Heroku</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <img src="./images/Poliheel.jpg" alt="Screenshot of the PoliHeel Site." />
+            </article>
+        </section>
+    </div>
+
+    <div class="gradient"></div>
+    <div class="section-red">
+        <section id="contact">
+            <h2>Contact me</h2>
+            <p>I would love for you to contact me for any exciting and interesting opportunities.</p>
+            <p><a href="mailto:moreno.eric01@gmail.com" class="contact-button">Email me</a></p>
+        </section>
+    </div>
+    <div class="gradient"></div>
+
+    <footer>
+        <h2>Eric D. Moreno &middot; Software Engineer</h2>
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/in/eric-daniel-moreno/" target="_blank">
+                    <span class="fab fa-linkedin" aria-hidden="true"></span>
+                    <span class="sr-only">LinkedIn</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/moreno-e" target="_blank">
+                    <span class="fab fa-github-square" aria-hidden="true"></span>
+                    <span class="sr-only">Github</span>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:moreno.eric01@gmail.com">
+                    <span class="fas fa-envelope" aria-hidden="true"></span>
+                    <span class="sr-only">Email</span>
+                </a>
+            </li>
+        </ul>
+        <p><small>&copy; 2023 Eric D. Moreno. All rights reserved.</small></p>
+    </footer>
+</body>
+
+</html>
