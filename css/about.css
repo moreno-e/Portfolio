@@ -19,6 +19,10 @@
     color: var(--white)
 }
 
+#projects .text h3 {
+    color: var(--white);
+}
+
 .section-wrapper {
     max-width: 1200px;
     margin: 0 auto;
@@ -26,12 +30,13 @@
 }
 
 section {
-    margin-top: 20px
+    margin-top: 20px;
 }
 
 #technical-skills .highlights {
     list-style-type: circle;
     margin: 20px 0;
+    font-size: 1.2rem;
 }
 
 #technical-skills .highlights span {
@@ -45,20 +50,27 @@ section {
 #experience h3 {
     color: var(--dkblue);
     font-family: var(--mono);
+    font-size: var(--font-size);
 }
 
 #experience .list-title {
     font-family: var(--mono);
     font-style: italic;
+    font-size: 1.2rem;
 }
 
 #experience .highlights {
     list-style: circle;
     color: var(--white);
+    font-size: 1.2rem;
 }
 
 #experience .highlights p:last-child {
     color: var(--white);
+}
+
+#experience .tech-text {
+    font-size: 1rem;
 }
 
 #experience .highlights span {
