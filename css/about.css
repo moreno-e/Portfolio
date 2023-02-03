@@ -19,7 +19,7 @@
     color: var(--white)
 }
 
-#experience {
+.section-wrapper {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px 0;
@@ -27,6 +27,15 @@
 
 section {
     margin-top: 20px
+}
+
+#technical-skills .highlights {
+    list-style-type: circle;
+    margin: 20px 0;
+}
+
+#technical-skills .highlights span {
+    color: var(--dkblue);
 }
 
 #experience li {
