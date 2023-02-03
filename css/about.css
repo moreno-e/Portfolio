@@ -71,6 +71,7 @@ section {
 
 #experience .tech-text {
     font-size: 1rem;
+    font-family: var(--mono);
 }
 
 #experience .highlights span {
