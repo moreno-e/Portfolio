@@ -1,0 +1,63 @@
+:root {
+    --dkblue: #2C3E50;
+    --dkred: #d62c1a;
+    --red: #E74C3C;
+    --lightRed: #ed7669;
+    --white: #ECF0F1;
+    --lightBlue: #3498DB;
+    --midBlue: #2980B9;
+    --font-size: 1.3rem;
+    --mono: "Oxygen mono", monospace;
+    --sans: Oxygen, sans-serif;
+}
+
+.text .black-box:last-child {
+    margin-top: 10px;
+}
+
+.text .black-box:last-child {
+    color: var(--white)
+}
+
+#experience {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+section {
+    margin-top: 20px
+}
+
+#experience li {
+    list-style-type: none;
+}
+
+#experience h3 {
+    color: var(--dkblue);
+    font-family: var(--mono);
+}
+
+#experience .list-title {
+    font-family: var(--mono);
+    font-style: italic;
+}
+
+#experience .highlights {
+    list-style: circle;
+    color: var(--white);
+}
+
+#experience .highlights p:last-child {
+    color: var(--white);
+}
+
+#experience .highlights span {
+    color: var(--dkblue);
+}
+
+.line-break {
+    border-bottom: 1px var(--dkblue) solid;
+    width: 100%;
+    margin: 0 auto;
+}

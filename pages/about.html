@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="../css/about.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
 </head>
 
@@ -52,68 +53,128 @@
     <div class="gradient"></div>
     <div class="section-midBlue">
         <section id="projects">
-            <h2>My Projects</h2>
+            <h2>About Me</h2>
             <article>
                 <div class="text">
-                    <h4>Latest Project</h4>
-                    <h3>Carolina Hurricanes Warriors Website</h3>
-                    <p class="black-box">
-                        The Carolina Hurricanes Warriors Program is a non-profit disabled veteran's ice hockey team. As
-                        member of the program I volunteered to develop the teams website to help promote the
-                        importance of the program. Currently a new version of the site is under review by the programs
-                        board before release.
-                    </p>
-                    <p class="black-box">
-                        Originally developed using <span>React</span> and hosted via <span>Heroku</span>. The new
-                        and improved site has been now developed using the <span>Vue.js</span> framework using
-                        <span>Vuetify</span> components and hosted via <span>AWS Amplify</span>.
-                        The site now provides specific calendar events, photos of past events, and a board member login
-                        to view team-specific details. Please review the
-                        <span><a href="https://github.com/moreno-e/carolina-hurricanes-warriors" target="_blank">
-                                Github</a></span> page to view more in-depth specifics!
-                    </p>
-                    <h4> Technologies used include:</h4>
-                    <ul>
-                        <li>Vue.js</li>
-                        <li>Vuetify</li>
-                        <li>AWS Amplify</li>
-                        <li>AWS DataStore</li>
-                        <li>GraphQl</li>
-                        <li>AWS S3</li>
-                    </ul>
+                    <h3>Hello!</h3>
+                    <div class="black-box">
+                        <p>
+                            I am from <span>Raleigh, North Carolina</span>. I graduated from
+                            Leesville Road High School in 2009. After graduation I joined the
+                            <span>United States Marine Corps</span> as a Combat Videographer. Serving 5 years from 2009
+                            to 2014 at Camp Lejeune, N.C., with one combat deployment to Afghanistan.
+                        </p>
+                        <p>
+                            After my military service I obtain a <span>Associates in Engineering</span> at
+                            <span>Wake Tech Community</span> College in Raleigh, N.C. Transferring to the
+                            <span>University of North Carolina at Chapel Hill</span> in 2018. Where I majored in
+                            <span>Computer Science</span>, graduating in December 2020 with my
+                            <span>Bachelor of Science in Computer Science</span>.
+                        </p>
+                        <p>
+                        </p>
+                    </div>
                 </div>
-                <img src="./images/Warriors-Site.png" alt="Screenshot of Warriors Website." />
-            </article>
-            <article class="reverse">
-                <div class="text">
-                    <h4>Ongoing Project and Former Class Project</h4>
-                    <h3>PoliHeel</h3>
-                    <p class="black-box">
-                        PoliHeel was a school personal project currently undergoing a rewrite to improve stability and
-                        user interaction. It is a <span>React</span> developed website that allows users to search
-                        congressional members of congress, federal or state (116th Congress), leveraging <span>Google
-                            Civic API</span> and <span>Probulica API</span>. The application will display a user’s
-                        federal and state senators and representatives after they sign up using <span>Material
-                            UI</span>. Furthermore, the congressional member's information is pulled after the user
-                        provides their location during sign-up.
-                    </p>
-                    <h4>Technologies used include:</h4>
-                    <ul>
-                        <li>React</li>
-                        <li>Firebase / Firestore</li>
-                        <li>Heroku</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
-                </div>
-                <img src="./images/Poliheel.jpg" alt="Screenshot of the PoliHeel Site." />
+                <img src="../images/Headshot.jpeg" alt="Headshot of Eric Moreno." />
             </article>
         </section>
     </div>
 
     <div class="gradient"></div>
+    <div class="section-red">
+        <section id="experience">
+            <h2>Experiences</h2>
+            <h3>MikMak</h3>
+            <ul>
+                <li class="list-title">Software Engineer I: Jul 2022 - Jan 2023 </li>
+                <li class="list-title">Associate Software Engineer: Apr 2021 - Jul 2022 </li>
+                <ul>
+                    <li class="highlights">
+                        <p>
+                            Contributed to the development of a bulk link generation system that
+                            <span>increased URL link generation up to 500%</span> for MikMak Commerce Experiences. By
+                            integrating the <span>KendoUI Spreadsheet</span> in MikMak's <span>Vue.js Platform</span>,
+                            leveraging data from <span>MikMak's Meta-Data API</span>. While
+                            tracking and logging success or error events through <span>Amplitude</span>. This overall
+                            allowed Customer Service Managers and Account Coordinators to quickly and reliably provide
+                            clients and brands their MikMak Experience.
+                        </p>
+                        <p>
+                            Technologies Used:
+                            <span>
+                                Vue.js, Node.js, JavaScript, Kendo UI, Amplitude, MikMak's Meta-Data API,
+                                Express
+                            </span>
+                        </p>
+                    </li>
+                    <li class="highlights">
+                        <p>
+                            Integrated <span>Auth0</span> into MikMak's platform to increase authentication and
+                            authorization.
+                            Using <span>Auth0's Management API</span> to manage user and employee access. By limiting
+                            levels of access to MikMak's Platform by attaching <span>roles and permissions</span> to
+                            each client and employees. In addition, added a single sign-on for employees while providing
+                            a more secure username and passwords login system for clients. Tying in a
+                            <span>Datadog monitor</span> that screened users location, IP's, and login attempts to
+                            <span>monitor potential threats</span> from outside adversaries.
+                        </p>
+                        <p>
+                            Technologies Used:
+                            <span>
+                                Vue.js, Node.js, JavaScript, DataDog, Auth0, Auth0 Management API, Express
+                            </span>
+                        </p>
+                    </li>
+                </ul>
+            </ul>
+            <div class="line-break"></div>
+            <h3>Vanguard Cleaning Systems of Raleigh</h3>
+            <ul>
+                <li class="list-title">Field Consultant: May 2016 - Jul 2019 </li>
+                <ul>
+                    <li class="highlights">
+                        <p>
+                            Provided <span>quality assurance</span> for customer cleaning issues and concerns related to
+                            their
+                            company’s janitorial needs. By <span>managing</span> cleaning crews to implement quick and
+                            thorough <span>fixing procedures</span> to maintain high customer satisfaction
+                        </p>
+                    </li>
+                    <li class="highlights">
+                        <p>
+                            Managed accounts receivable to include billing, collections, and invoice statements to
+                            ensure company cash flow
+                        </p>
+                    </li>
+                </ul>
+            </ul>
+            <div class="line-break"></div>
+            <h3>United States Marine Corps</h3>
+            <ul>
+                <li class="list-title">Combat Videographer: Nov 2009 - Nov 2014</li>
+                <ul>
+                    <li class="highlights">
+                        <p>
+                            Oversaw over <span>40,000 dollars’</span> worth of camera equipment and computer software
+                            while in a <span>combat environment</span> to support the documentation needs of superiors
+                            for the Afghanistan
+                            Campaign.
+                        </p>
+                    </li>
+                    <li class="highlights">
+                        <p>
+                            <span>Supervised</span> and <span>managed three departments</span> providing support to more
+                            than <span>400 customers</span> with graphics, photography and videography needs, to include
+                            providing mangers with production ideas helping bring customer needs faster and easier.
+                        </p>
+                    </li>
+                </ul>
+            </ul>
 
+
+        </section>
+    </div>
+    <div class="gradient"></div>
     <footer>
         <h2>Eric D. Moreno &middot; Software Engineer</h2>
         <ul>
