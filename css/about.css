@@ -54,6 +54,7 @@ section {
 }
 
 #experience .list-title {
+    color: var(--dkblue);
     font-family: var(--mono);
     font-style: italic;
     font-size: 1.2rem;
