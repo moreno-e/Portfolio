@@ -5,7 +5,7 @@ My portfolio site is a simple HTML and CSS website. It allows for more of a deta
 
 ### Site Access
 Hosted Via Netlify: 
-[Portfolio Site](https://delightful-cuchufli-93a221.netlify.app/)
+[Portfolio Site - ericdmoreno.info](https://ericdmoreno.info/)
 
 ### Screenshot
 ![Screenshot 2023-02-02 at 6 19 34 PM](https://user-images.githubusercontent.com/42720283/216473292-fce4f796-7824-4203-a291-4bb43c35883c.png)
